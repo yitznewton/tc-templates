@@ -94,7 +94,14 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
     <ul class="menu"><li class="leaf first"><a href="/about/libraries" title="">Locations and Hours</a></li>
 <li class="leaf"><a href="/account" title="">My Account</a></li>
 <li class="leaf"><a href="http://library.touro.edu/patroninfo~S2" title="">Renew Books</a></li>
+
+<?php if ( has_component_slot('logoutLink') && get_component_slot('logoutLink') ): ?>
+<li class="leaf"><a href="/faq" title="">FAQ</a></li>
+<li class="leaf last"><?php include_component_slot('logoutLink') ?></li>
+<?php else: ?>
 <li class="leaf last"><a href="/faq" title="">FAQ</a></li>
+<?php endif; ?>
+
 </ul>  </div>
 </div>
   </div>
@@ -115,17 +122,21 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
   <div>Copyright &copy; 2011 Touro College. All rights reserved.</div>
 <div>Touro College Main Campus &ndash; 27-33 West 23 Street, New York, NY 10010, (212) 463-0400</div></div>
 
-<script type="text/javascript" src="/sites/default/files/js/js_87361fd17d9efcf9815ba8604e6962c5.js"></script>
+<?php if ( sfConfig::get('app_google_analytics_key') ): ?>
 <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-//--><!]]>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '<?php echo sfConfig::get('app_google_analytics_key') ?>']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
-<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-try{var pageTracker = _gat._getTracker("UA-11909015-1");pageTracker._trackPageview();} catch(err) {}
-//--><!]]>
-</script>
+<?php endif; ?>
 
 </body>
 </html>

@@ -6,12 +6,12 @@
   <title> 
   Jay Sexter Library | Touro University  </title> 
   <link rel="profile" href="http://gmpg.org/xfn/11" /> 
-  <link rel="stylesheet" type="text/css" href="/nevada-20100721/nevada_native.css" />
-  <link rel="stylesheet" type="text/css" href="/nevada-20100721/style.css" />
+  <link rel="stylesheet" type="text/css" href="/nevada/nevada_native.css" />
+  <link rel="stylesheet" type="text/css" href="/nevada/style.css" />
     <link rel="pingback" href="http://www.tun.touro.edu/xmlrpc.php" /> 
   <link rel="alternate" type="application/rss+xml" title="Touro University &raquo; Feed" href="http://www.tun.touro.edu/feed/" /> 
 <link rel="alternate" type="application/rss+xml" title="Touro University &raquo; Comments Feed" href="http://www.tun.touro.edu/comments/feed/" /> 
-<script type='text/javascript' src='/nevada-20100721/nevada_native.js'></script> 
+<script type='text/javascript' src='/nevada/nevada_native.js'></script> 
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.tun.touro.edu/xmlrpc.php?rsd" /> 
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.tun.touro.edu/wp-includes/wlwmanifest.xml" /> 
 <link rel='index' title='Touro University' href='http://www.tun.touro.edu/' /> 
@@ -45,7 +45,7 @@ body { background-color: #005373; }
         
         
           
-            <a href="http://www.tun.touro.edu/" title="Touro University" rel="home" id="logo"><img src="/nevada-20100721/images/logo.gif"></a> 
+            <a href="http://www.tun.touro.edu/" title="Touro University" rel="home" id="logo"><img src="/nevada/images/logo.gif"></a> 
           
         
         <div class="livesearchpopup"> 
@@ -55,10 +55,10 @@ body { background-color: #005373; }
      <form name="ls_form" class="form" id="searchform" method="get" action="http://www.tun.touro.edu"> 
        
        <div class="editbox"><input class="edit" type="text" name="s" id="s" /></div> 
-       <input type="image" value="Search" class="lupe" src="/nevada-20100721/images/button-search.gif" alt="" title="Click to view the result page."/> 
+       <input type="image" value="Search" class="lupe" src="/nevada/images/button-search.gif" alt="" title="Click to view the result page."/> 
      </form> 
      <div id="livesearchpopup_box" style="display: none;"> 
-       <img class="pfeil" src="/nevada-20100721/images/searchpfeil.png" alt="" /> 
+       <img class="pfeil" src="/nevada/images/searchpfeil.png" alt="" /> 
  
        <h1>Results</h1> 
  
@@ -378,8 +378,8 @@ body { background-color: #005373; }
  
         <div id="post-1289" class="post-1289 page type-page hentry"> 
 
-            <?php if ($sf_user->isAuthenticated()): ?>
-              <div id="logout-link"><?php echo link_to('Logout', 'user/logout') ?></div>
+            <?php if ( has_component_slot('logoutLink') ): ?>
+            <div id="logout-link"><?php echo get_component_slot('logoutLink') ?></div>
             <?php endif; ?>
 
             <?php echo $sf_content ?>
