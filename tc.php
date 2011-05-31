@@ -48,10 +48,10 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 
 <div id="ie-main-container"><div id="main-container">
   <div id="sidebar">
-    <h2 id="sidebar-department"><a href="/">Libraries</a></h2>
+    <h2 id="sidebar-department"><a href="http://www.tourolib.org/">Libraries</a></h2>
 
       <ul id="sidebar-links">
-    <li class="first"><a href="/" title="">Library Home</a></li><li><a href="http://library.touro.edu/search~S2" title="">Find Books and More (Catalog)</a></li><li><a href="https://erms.tourolib.org/" title="">Find Articles and Databases</a></li><li><a href="/resources/ereserves" title="">EReserves</a></li><li><a href="/services/students" title="">Student Services</a></li><li class="last"><a href="/services/faculty" title="">Faculty Services</a></li><li><a href="/newsletter" title="">Newsletter</a></li>  </ul>
+    <li class="first"><a href="http://www.tourolib.org/" title="">Library Home</a></li><li><a href="http://library.touro.edu/search~S2" title="">Find Books and More (Catalog)</a></li><li><a href="https://erms.tourolib.org/" title="">Find Articles and Databases</a></li><li><a href="http://www.tourolib.org/resources/ereserves" title="">EReserves</a></li><li><a href="http://www.tourolib.org/services/students" title="">Student Services</a></li><li class="last"><a href="http://www.tourolib.org/services/faculty" title="">Faculty Services</a></li><li><a href="http://www.tourolib.org/newsletter" title="">Newsletter</a></li>  </ul>
 
     <h2>Search</h2>
     <div id="sidebar-search">
@@ -91,15 +91,15 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 <div id="block-menu-menu-top-links" class="block block-menu">
 
   <div class="content">
-    <ul class="menu"><li class="leaf first"><a href="/about/libraries" title="">Locations and Hours</a></li>
-<li class="leaf"><a href="/account" title="">My Account</a></li>
+    <ul class="menu"><li class="leaf first"><a href="http://www.tourolib.org/about/libraries" title="">Locations and Hours</a></li>
+<li class="leaf"><a href="http://www.tourolib.org/account" title="">My Account</a></li>
 <li class="leaf"><a href="http://library.touro.edu/patroninfo~S2" title="">Renew Books</a></li>
 
 <?php if ( has_component_slot('logoutLink') && get_component_slot('logoutLink') ): ?>
-<li class="leaf"><a href="/faq" title="">FAQ</a></li>
+<li class="leaf"><a href="http://www.tourolib.org/faq" title="">FAQ</a></li>
 <li class="leaf last"><?php include_component_slot('logoutLink') ?></li>
 <?php else: ?>
-<li class="leaf last"><a href="/faq" title="">FAQ</a></li>
+<li class="leaf last"><a href="http://www.tourolib.org/faq" title="">FAQ</a></li>
 <?php endif; ?>
 
 </ul>  </div>
@@ -118,7 +118,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 
 <div id="footer">
     <ul id="footer-links" class="inline-menu">
-    <li class="first"><a href="/tech-support" title="">Technical Support</a></li><li><a href="/contact" title="">Contact Us</a></li><li><a href="http://www.touro.edu/general/disclaimer.asp" title="">Disclaimer</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsitePrivacyPolicy-Final(110509).pdf" title="">Privacy Policy</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsiteTermsofUse-Final(110509).pdf" title="">Terms of Use</a></li><li class="last"><a href="https://wiki.tourolib.org/" title="">Staff Wiki</a></li><li><a href="/feeds" title="" class="rss-link">RSS</a></li>  </ul>
+    <li class="first"><a href="http://www.tourolib.org/tech-support" title="">Technical Support</a></li><li><a href="http://www.tourolib.org/contact" title="">Contact Us</a></li><li><a href="http://www.touro.edu/general/disclaimer.asp" title="">Disclaimer</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsitePrivacyPolicy-Final(110509).pdf" title="">Privacy Policy</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsiteTermsofUse-Final(110509).pdf" title="">Terms of Use</a></li><li class="last"><a href="https://wiki.tourolib.org/" title="">Staff Wiki</a></li><li><a href="http://www.tourolib.org/feeds" title="" class="rss-link">RSS</a></li>  </ul>
   <div>Copyright &copy; 2011 Touro College. All rights reserved.</div>
 <div>Touro College Main Campus &ndash; 27-33 West 23 Street, New York, NY 10010, (212) 463-0400</div></div>
 
