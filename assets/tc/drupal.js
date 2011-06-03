@@ -855,10 +855,6 @@ $(document).ready( function() {
     tab_selected = 1;
   }
 
-  $('#homepage-find-container')
-    .tabs({cookie: {expires: 1}, selected: tab_selected})
-    .show();
-
   var library_code_url_el = document.getElementById('library-code-url');
 
   if ( library_code_url_el ) {

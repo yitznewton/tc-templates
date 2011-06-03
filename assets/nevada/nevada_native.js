@@ -3493,20 +3493,6 @@ var ls = {
 
             ls.results_box = $('livesearchpopup_box');
             ls.results_box.hide();
-            
-            var s = $('s');
-            s.setAttribute("autocomplete","off");
-            s.setAttribute("placeholder","Search");
-            s.onkeypress = ls.noEnter;
-            new Form.Element.Observer(s, 1.0, ls.show_results);
-            Event.observe(s, "keypress", ls.handleKeypress, false);
-            // disabled for now until a solution is found that does not disable clicks on the results 
-            Event.observe(s, "blur", ls.lostFocus, false);
-            Event.observe(s, "change", ls.lostFocus, false);
-            Event.observe(s, "focus", ls.focus, false);
-            Event.observe(ls.results_box, "mousemove", function(event){ ls.updateSelection(undefined);})
-            //Event.observe(ls.livesearchpopup_box, "mouseover", function(event){ ls.updateSelection(undefined);})
-            ls.show_page(s.value, 1);
         },
         
         noEnter:function(evt) {
@@ -3771,12 +3757,3 @@ jQuery(document).ready(function() {
   
 
 });
-$(document).ready( function() {
-  $('.description-link').click( function(){
-    $(this).parent().siblings( '.database-description-full' ).show();
-    $(this).parent().hide();
-
-    return false;
-  });
-});
-
