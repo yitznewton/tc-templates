@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="http://www.tourolib.org/sites/all/themes/tc1/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="//www.tourolib.org/sites/all/themes/tc1/images/favicon.ico" type="image/x-icon" />
   <title><?php echo has_slot('title') ? get_slot('title') . ' | ' : '' ?>Touro College Libraries</title>
 
   <meta name="title" content="Touro College Libraries">
@@ -28,9 +28,9 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 
 
 <div id="logo-header">
-  <a href="http://www.touro.edu/"><img id="screen-logo" src="http://www.tourolib.org/sites/all/themes/tc1/images/touro.jpg"
+  <a href="http://www.touro.edu/"><img id="screen-logo" src="//www.tourolib.org/sites/all/themes/tc1/images/touro.jpg"
     alt="Touro College logo" /></a>
-  <img id="print-logo" src="http://www.tourolib.org/sites/all/themes/tc1/images/touro_libraries.jpg" alt="Touro College Libraries logo" />
+  <img id="print-logo" src="//www.tourolib.org/sites/all/themes/tc1/images/touro_libraries.jpg" alt="Touro College Libraries logo" />
 </div>
 
 
@@ -72,13 +72,13 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
     <ul id="social-networking">
       <li>
         <a href="http://www.facebook.com/tourolibraries">
-          <img src="http://www.tourolib.org/sites/all/themes/tc1/images/facebookb.png"
+          <img src="//www.tourolib.org/sites/all/themes/tc1/images/facebookb.png"
             alt="Facebook logo" title="Like us on Facebook" /></a>
       </li>
 
       <li>
         <a href="http://twitter.com/TouroLibraries">
-          <img src="http://www.tourolib.org/sites/all/themes/tc1/images/twitterb.png"
+          <img src="//www.tourolib.org/sites/all/themes/tc1/images/twitterb.png"
             alt="Twitter logo" title="Follow us on Twitter" /></a>
         <a id="twitter-link" href=""></a>
       </li>
