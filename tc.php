@@ -62,7 +62,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
         <input type="hidden" name="cx" value="018385097459874495184:9goqy74m_fi" />
         <input type="hidden" name="cof" value="FORID:0" />
 
-        <img id="search-logo" src="http://www.google.com/coop/images/google_custom_search_smnar.gif"
+        <img id="search-logo" src="//www.google.com/coop/images/google_custom_search_smnar.gif"
           alt="Google Custom Search" />
 
         <input class="input-button" id="search-sa" type="submit" name="sa" value="Search" />
