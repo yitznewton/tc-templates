@@ -93,7 +93,7 @@ class touroLayoutFilter extends sfFilter
   {
     $this->user->setAttribute('layout', 'nevada');
     $this->action->setLayout( 'nevada' );
-    $this->response->addJavascript('jquery.js');
+    $this->response->addJavascript('/nevada/jquery.js');
     $this->response->addStylesheet('/nevada/nevada_native.css');
     $this->response->addJavascript('/nevada/nevada_native.js');
     $this->response->addStylesheet('nevada.css');
