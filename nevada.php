@@ -6,6 +6,10 @@
   <title> 
   Jay Sexter Library | Touro University  </title> 
   <link rel="profile" href="http://gmpg.org/xfn/11" /> 
+  <?php use_stylesheet('/nevada/nevada_native.css') ?>
+  <?php use_stylesheet('/nevada/nevada.css') ?>
+  <?php use_javascript('/nevada/jquery.js') ?>
+  <?php use_javascript('/nevada/nevada_native.js') ?>
   <?php include_stylesheets() ?>
     <link rel="pingback" href="http://www.tun.touro.edu/xmlrpc.php" /> 
   <link rel="alternate" type="application/rss+xml" title="Touro University &raquo; Feed" href="http://www.tun.touro.edu/feed/" /> 

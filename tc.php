@@ -14,6 +14,9 @@
   <meta name="subject" content="Touro College Libraries, Touro Libraries, Touro College Library,
     Touro Library, TCL, Turo Library, Turo Libraries, SCAS, DMX">
 
+  <?php use_stylesheet('/tc/drupal.css', 'first', array('media' => 'all')) ?>
+  <?php use_stylesheet('/tc/drupal-p.css', 'first', array('media' => 'print')) ?>
+  <?php use_javascript('/tc/drupal.js', 'first') ?>
   <?php include_stylesheets() ?>
   <?php include_javascripts() ?>
 <script type="text/javascript">
