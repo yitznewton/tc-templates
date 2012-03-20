@@ -55,8 +55,8 @@
     <ul>
       <li><a href="http://www.touro.edu/">TC Home</a></li>
 
-      <li><a href="/tech-support">Technical Support</a></li>
-      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="https://erms.tourolib.org/tech-support">Technical Support</a></li>
+      <li><a href="https://erms.tourolib.org/contact">Contact Us</a></li>
       <li><a href="http://www.touro.edu/general/disclaimer.asp">Disclaimer</a></li>
       <li><a href="http://www.touro.edu/docs/TouroCollege-WebsitePrivacyPolicy-Final(110509).pdf">Privacy Policy</a></li>
       <li><a href="http://www.touro.edu/docs/TouroCollege-WebsiteTermsofUse-Final(110509).pdf">Terms of Use</a></li>
