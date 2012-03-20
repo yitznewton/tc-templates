@@ -121,7 +121,11 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
 
 <div id="footer">
     <ul id="footer-links" class="inline-menu">
-    <li class="first"><a href="http://www.tourolib.org/tech-support" title="">Technical Support</a></li><li><a href="http://www.tourolib.org/contact" title="">Contact Us</a></li><li><a href="http://www.tourolib.org/contact/suggestions">Suggestions</a></li><li><a href="http://www.touro.edu/general/disclaimer.asp" title="">Disclaimer</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsitePrivacyPolicy-Final(110509).pdf" title="">Privacy Policy</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsiteTermsofUse-Final(110509).pdf" title="">Terms of Use</a></li><li class="last"><a href="https://wiki.tourolib.org/" title="">Staff Wiki</a></li><li><a href="http://www.tourolib.org/feeds" title="" class="rss-link">RSS</a></li>  </ul>
+    <li class="first"><a href="http://www.tourolib.org/tech-support" title="">Technical Support</a></li><li><a href="http://www.tourolib.org/contact" title="">Contact Us</a></li><li><a href="http://www.tourolib.org/contact/suggestions">Suggestions</a></li><li><a href="http://www.touro.edu/general/disclaimer.asp" title="">Disclaimer</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsitePrivacyPolicy-Final(110509).pdf" title="">Privacy Policy</a></li><li><a href="http://www.touro.edu/docs/TouroCollege-WebsiteTermsofUse-Final(110509).pdf" title="">Terms of Use</a></li><li class="last"><a href="https://wiki.tourolib.org/" title="">Staff Wiki</a></li><li><a href="http://www.tourolib.org/feeds" title="" class="rss-link">RSS</a></li>
+      <?php if (has_component_slot('mobileSwitch')): ?>
+      <?php include_component_slot('mobileSwitch') ?>
+      <?php endif; ?>
+  </ul>
   <div>Copyright &copy; 2011 Touro College. All rights reserved.</div>
 <div>Touro College Main Campus &ndash; 27-33 West 23 Street, New York, NY 10010, (212) 463-0400</div></div>
 

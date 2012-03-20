@@ -4,10 +4,11 @@
 <link rel="shortcut icon" href="//www.tourolib.org/sites/all/themes/tc1/images/favicon.ico" type="image/x-icon" />
   <title><?php echo has_slot('title') ? get_slot('title') . ' | ' : '' ?>Touro College Libraries</title>
 
-  <meta name="title" content="Touro College Libraries">
-  <meta name="description" content="Website of the Touro College Libraries">
+  <meta name="title" content="Touro College Libraries" />
+  <meta name="description" content="Website of the Touro College Libraries" />
   <meta name="subject" content="Touro College Libraries, Touro Libraries, Touro College Library,
-    Touro Library, TCL, Turo Library, Turo Libraries, SCAS, DMX">
+    Touro Library, TCL, Turo Library, Turo Libraries, SCAS, DMX" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <?php use_stylesheet('frontend_mobile.css') ?>
   <?php use_javascript('jquery/js/jquery-1.7.1.min.js', 'first') ?>
