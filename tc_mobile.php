@@ -65,7 +65,7 @@
       <?php endif; ?>
     </ul>
   </nav>
-  <div>Copyright &copy; 2012 Touro College. All rights reserved.</div>
+  <div>Copyright &copy; <?php echo date('Y') ?> Touro College. All rights reserved.</div>
   <div>Touro College Main Campus – 27-33 West 23 Street, New York, NY 10010, (212) 463-0400</div>
 </footer>
 

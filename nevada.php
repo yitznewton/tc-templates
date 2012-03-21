@@ -423,7 +423,7 @@ Students</a> |
       <a href="http://www.tun.touro.edu/community/">Community</a> | 
       <a href="http://www.tun.touro.edu/about/">About</a> | <a href="http://www.tun.touro.edu/library">Library</a> 
   | <a href="http://www.tun.touro.edu/about/bookstore/">Bookstore</a> | <a href="https://bb-tun.touro.edu/" target="_blank">Blackboard</a><br /> 
-    <p>Copyright &copy; 2010 Touro University. All rights reserved.&nbsp;<a href="http://mail.nv.touro.edu/" target="_blank">Student 
+    <p>Copyright &copy; <?php echo date('Y') ?> Touro University. All rights reserved.&nbsp;<a href="http://mail.nv.touro.edu/" target="_blank">Student 
 Webmail</a> | <a href="http://www.tu.edu/indexca.php" target="_blank">TU California</a> &nbsp;|&nbsp;<a href="http://www.touro.edu/" target="_blank">Touro College</a>&nbsp;|&nbsp;<a href="mailto:melody.cannon@tun.touro.edu">Webmaster</a> 
 &nbsp;|&nbsp;<a href="http://www.tun.touro.edu/contact/">Contact
 </a></p> 

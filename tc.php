@@ -126,7 +126,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOut
       <?php include_component_slot('mobileSwitch') ?>
       <?php endif; ?>
   </ul>
-  <div>Copyright &copy; 2011 Touro College. All rights reserved.</div>
+  <div>Copyright &copy; <?php print date('Y') ?> Touro College. All rights reserved.</div>
 <div>Touro College Main Campus &ndash; 27-33 West 23 Street, New York, NY 10010, (212) 463-0400</div></div>
 
 <?php if ( sfConfig::get('app_google_analytics_key') ): ?>
